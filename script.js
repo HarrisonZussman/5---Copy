@@ -1,3 +1,4 @@
+let API_KEY = '5657df8791b81f5bcce648257200e552';
 let timeEl = document.getElementById('time');
 let dateEl = document.getElementById('date');
 let currentWeatherItemsEl = document.getElementById('current-weather-items');
@@ -78,7 +79,6 @@ setInterval(() => {
 
 }, 1000);
 
-let API_KEY = '5657df8791b81f5bcce648257200e552';
 //getWeatherData()
 //future
 function getFutureForcastData(city_name) {
